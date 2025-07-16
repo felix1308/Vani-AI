@@ -17,26 +17,6 @@ This project uses **Retrieval-Augmented Generation (RAG)** to pull relevant exce
 
 ---
 
-## 📁 Folder Structure
-
-```
-vani/
-├── data/
-│   └── letters.json            # All parsed Śrīla Prabhupāda letters
-├── embeddings/
-│   └── faiss_index/            # Saved FAISS vector store
-├── app/
-│   ├── main.py                 # Main app entry point
-│   ├── gui.py                  # Optional Tkinter interface
-│   └── rag_core.py             # RAG logic (retrieval + prompt)
-├── models/
-│   └── model_loader.py         # Ollama model interface
-├── prompts/
-│   └── prompt_templates.py     # Devotional, structured prompts
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## 🚀 Getting Started
